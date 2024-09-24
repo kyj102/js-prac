@@ -3,30 +3,34 @@ let b = 22;
 let c = 19;
 let d = 30;
 let result;
-result = b >= c || c < d || b <= d;
-console.log(result);
+// result = b >= c || c < d || b <= d;
+// console.log(result);
 
-result = a < b || b > c || a > d;
-console.log(result);
+// result = a < b || b > c || a > d;
+// console.log(result);
 
-result = a > d || b < c || a > d;
-console.log(result);
+// result = a > d || b < c || a > d;
+// console.log(result);
 
-result = b >= c && c < d && b <= d;
-console.log(result);
+// result = b >= c && c < d && b <= d;
+// console.log(result);
 
-result = a < b && b > c && a > d;
-console.log(result);
+// result = a < b && b > c && a > d;
+// console.log(result);
 
-result = a > d && b < c && a > d;
-console.log(result);
+// result = a > d && b < c && a > d;
+// console.log(result);
+
 
 result = (--a > c && a < b) || (++c > a && d > c);
 console.log(result);
+// F || T = T
 
 result = (--b > c++ || d <= 40) && a > b;
 console.log(result);
+// (T || F) = F && F = F
 
 d -= 10;
 result = ++a >= d && b <= c && c < d;
 console.log(result);
+// T && F && T = F
